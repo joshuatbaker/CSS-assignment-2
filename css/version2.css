@@ -5,14 +5,14 @@ body {
     font-family: sans-serif;
     color: #fff;
     background: #333;
+    margin: 0;
 }
 section {
   max-width: 600px;
-  padding-top: 50px;
   margin: 0;
 }
 header {
-  padding: .5rem;
+  padding: 1rem;
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -20,6 +20,9 @@ header {
 }
 h1{
   font-size: 2.5rem;
+}
+h2 {
+  margin: 0;
 }
 nav ul {
   display: flex;
@@ -37,28 +40,17 @@ nav ul li {
 img {
     max-width: 100%; /* DO NOT delete or change this line */
 }
-section text{
-  margin-bottom: 50px;
-}
-h2 {
-  text-align: center;
-}
 footer {
   text-align: center;
 }
 .text {
-    background: #fff;
     height: 100%;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 20px;
+    padding-left: 50px;
 }
 article {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
+  padding: 50px 20px;
 }
 #cougar {
   background: #FFD5AE;
@@ -97,7 +89,7 @@ article {
         specific articles or sections to improve CONTRAST --- */
 
 a {
-    color: #33cc66;
+    color: #0066ff;
     text-decoration: none;
 }
 a:hover {
